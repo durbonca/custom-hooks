@@ -9,7 +9,7 @@ example:
         email: ''
     }
 
-    const { values, handleInputChange, reset } = useCounter(initialState);
+    const [ values, handleInputChange, reset ] = useCounter(initialState);
 ```
 
 initialState is optional, if not provided, the hook will use an empty object as initial state.
