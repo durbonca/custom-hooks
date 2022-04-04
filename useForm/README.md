@@ -1,4 +1,4 @@
-# useCounter Hook
+# useForms Hook
 
 example:
 
@@ -9,7 +9,7 @@ example:
         email: ''
     }
 
-    const [ values, handleInputChange, reset ] = useCounter(initialState);
+    const [ values, handleInputChange, reset ] = useForms(initialState);
 ```
 
 initialState is optional, if not provided, the hook will use an empty object as initial state.
