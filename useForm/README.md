@@ -9,7 +9,7 @@ example:
         email: ''
     }
 
-    const [ values, handleInputChange, reset ] = useForms(initialState);
+    const [ values, handleInputChange, reset ] = useForm(initialState);
 ```
 
 initialState is optional, if not provided, the hook will use an empty object as initial state.
